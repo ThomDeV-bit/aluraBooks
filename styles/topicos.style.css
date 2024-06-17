@@ -1,0 +1,21 @@
+.topicos {
+    color: white;
+    text-align: center;
+    padding: 2em 0  0 0;
+    background: linear-gradient(97.54deg,#002f52 53.49%,#326589 165%);
+}
+
+
+.topicos__lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.topicos__lista__item{
+    justify-content: center;
+    background-color: orange;
+    padding: 1em;
+    margin:  10px 10px 20px 10px;
+}
