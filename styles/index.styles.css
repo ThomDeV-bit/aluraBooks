@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;0,400;0,500;;&display=swap');
+:root {
+    --cor--fundo : #EBECEE
+}
+
+.body {
+    background-color: var(--cor--fundo);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+}

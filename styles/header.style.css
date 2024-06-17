@@ -1,10 +1,5 @@
-:root {
-    --cor--fundo : #EBECEE
-}
 
-.body {
-    background-color: var(--cor--fundo);
-}
+
 
 .cabecalho{
     display: flex;
@@ -34,14 +29,33 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 15%;
     background-color: white;
-    padding: 1em;
+    width: 60vw;
+
+
 }
 .lista-menu__link{
-    text-decoration: none;
+    display: flex;
+    background: linear-gradient(97.54deg,#002f52 53.49%,#326589 165%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
+
+
 
 .container__botao:checked~.lista-menu{
     display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+
+}
+
+.lista-menu__titulo{
+    color: orange;
+    font-weight: 700
 }

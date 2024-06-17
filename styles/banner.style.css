@@ -1,0 +1,34 @@
+.banner {
+    background: linear-gradient(97.54deg,#002f52 53.49%,#326589 165%);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto{
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    border-radius: 24px;
+}
+.banner__pesquisa::placeholder{
+    background: url("/assets/Lupa.svg");
+    background-repeat: no-repeat;
+    background-position: 2em;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
