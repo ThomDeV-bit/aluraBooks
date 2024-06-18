@@ -2,6 +2,7 @@
     display: flex;
     padding: 2em;
     background-color: white;
+    color: linear-gradient(97.54deg,#002f52 53.49%,#326589 165%);
     flex-direction: column;
     gap: 20px
 

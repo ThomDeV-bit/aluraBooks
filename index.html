@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="styles/banner.style.css">
         <link rel="stylesheet" href="styles/topicos.style.css">
         <link rel="stylesheet" href="styles/contato.styles.css">
+        <link rel="stylesheet" href="styles/footer.styles.css">
+
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -28,7 +30,6 @@
                     <li class="lista-menu__titulo">Categorias</li>
                     <li class="lista-menu__item">
                         <a href="*" class="lista-menu__link">Programação</a>
-
                     </li>
                     <li class="lista-menu__item">
                         <a href="*" class="lista-menu__link">Font-end</a>
@@ -42,7 +43,31 @@
                     </li>    
                 </ul>
                 <img src="/assets/Logo.svg">
+                <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
             </div>
+            <ul class="container__lista">
+                <input type="checkbox" id="container__lista-menu" class="botao__lista-menu">
+                <label for="container__lista-menu">
+                    <li>CATEGORIAS</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="*" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="*" class="lista-menu__link">Font-end</a>
+                    </li>  <li class="lista-menu__item">
+                        <a href="*" class="lista-menu__link">Infraestrutura</a>
+                    </li>  <li class="lista-menu__item">
+                        <a href="*" class="lista-menu__link">Business</a>
+                    </li>
+                    </li>  <li class="lista-menu__item">
+                        <a href="*" class="lista-menu__link">Design & UI</a>
+                    </li>    
+                </ul>
+                <li><a class="container__lista-item" href="#">FAVORITOS</a></li>
+                <li><a class="container__lista-item" href="#">MINHA ESTANTE</a></li>
+            </ul>
             <div class="container">
                 <a ><img src="assets/Favoritos.svg" alt=""></a>
                 <a ><img src="assets/Compras.svg" alt=""></a>
@@ -145,6 +170,10 @@
         <h3>Atualizações de e-books, novos livros, promoções e outros.</h3>
         <input class="contato__input" placeholder="Cadastre seu e-mail">
    </section>
+   <hr class="hr"/>
+   <footer class="footer">
+       <h2>Grupo Alura</h2>
+   </footer>
        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
        <script>
             const swiper = new Swiper('.swiper',{
